@@ -1,4 +1,4 @@
-main {
+/* main {
     font-family: 'Delius Unicase';
 }
 
@@ -66,7 +66,7 @@ nav a {
     box-sizing: border-box;
 }
 
-/* .search::after {
+.search::after {
     content: "\1F50D"; 
     font-size: 20px;
     color: #333;
@@ -74,7 +74,7 @@ nav a {
     background-color: #333;
     border-radius: 0 63px 63px 0;
     cursor: pointer;
-} */
+}
 
 #section1 {
     display: flex;
@@ -312,4 +312,227 @@ nav a {
     width:100px;
     height: 50px;
 
+} */
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Inter:wght@700&family=Roboto:wght@400;500&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DM Sans;
+}
+.main {
+    font-family: "Delius Unicase";
+    width:90%;
+    margin:auto;
+}
+.social-icons{
+    position: sticky;
+    top:10px;
+    margin-top:100px;
+    float:right;
+}
+nav {
+    background-color: #6F6AF7;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+
+}
+nav ul {
+    background-color: #6F6AF7;
+    list-style: none;
+    display: flex;
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+nav li {
+    align-items: center;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36.43px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.search {
+    position: relative;
+    height: 64px;
+
+}
+.search input {
+    width: 100%;
+    padding: 8px 32px 8px 16px;
+    border-radius: 63px;
+    border: 1px solid #333;
+    outline: none;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#section1 {
+    display: flex;
+    height: 50vh;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:80px;
+}
+#section1 img {
+    width: 450px;
+    height: 100%;
+    border-radius: 10px;
+}
+.rec {
+    flex: 1;
+    height: 100%;
+    background-color: #E5D8FF;
+    padding:16px;
+}
+
+.box {
+    color: #6F7373;
+    font-family: DM Sans;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 10px;
+}
+#section2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 64px 0;
+    gap: 20px;
+}
+.rectangle {
+    flex: 1;
+    text-align: left;
+    border-radius: 10px;
+    width: 80px;
+    height: 100px;
+    padding: 16px;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.blue {
+    background: #929DFF;
+    color: #FFFFFF;
+}
+.blue1 {
+    background: #734CF2;
+    color: #FFFFFF;
+}
+.purple {
+    background: #D288FF;
+    color: #FFFFFF;
+}
+.black {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+#section3 {
+    background: #483EFF;
+    display: flex;
+    border-radius: 10px;
+}
+.rectangle2 {
+    text-align: center;
+    border-radius: 10px;
+    width: 450px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+}
+.rectangle2 button {
+    width: 80%;
+    margin: auto;
+    height: 80px;
+    border:1px solid white;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+#section3 .rectangle2 .box1 {
+    background: #BCE0F6;
+    font-weight: 700;
+    color:#000000
+
+}
+.rectangle3 {
+    background-color: white;
+    flex: 1;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+    height:400px;
+    flex-direction: column;
+}
+.rectangle3 .heading {
+    font-weight: 700;
+}
+.rectangle3 p {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 10.5%;
+    margin-left: 32px;
+    margin-bottom: 10px;
+}
+
+.box5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: black;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 5%;
+    line-height: 32px;
+    font-family: Roboto;
+    width:120px;
+    color:white;
+    position: absolute;
+    right:16px;
+    bottom:16px;
+    padding:16px;
+    border-radius:10px;
+}
+.bot{
+    position: fixed;
+    right: 32px;
+    bottom:16px;
+    width: 80px;
+    height: 80px;
 }
